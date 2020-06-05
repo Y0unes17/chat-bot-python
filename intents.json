@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello what can I do for you today", "Hello, what's up?", "Good to see you again!", "Hi there, how can I help?","Hello, stranger!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "what is your age", "how old are you", "age?"],
+         "responses": ["I'm a computer program dude", "seriously you ask this? "],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me zoe.", "my name is zoe and i'm a chatbot"],
+         "context_set": ""
+        },
+        {"tag": "zoe",
+         "patterns": ["zoe", "good name", "I liked it"],
+         "responses": ["Yeah,thank you", "it's a good name i liked ", "That's how you called me my creator"],
+         "context_set": ""
+        },
+        {"tag": "gender",
+         "patterns": ["who are you", "what's your gender"],
+         "responses": ["I'am a chatbot" , "I'am a IA chatbot ", "I'm an intelligent program who can chat with you"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+	 "context_set": ""
+        },
+        {"tag": "weather",
+         "patterns": ["What’s the weather today ?","weather ?"],
+         "responses": ["It look like a nice day ", "beauty day"],
+	 "context_set": ""
+        },
+        {"tag": "created ",
+         "patterns": ["Who is your maker", "Who is your creator", "Who created you"],
+         "responses": ["a good person called CYBER created me using python NLTK librray"],
+         "context_set": ""
+        }
+   ]
+}
